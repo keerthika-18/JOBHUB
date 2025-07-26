@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* Navbar Background with Gradient */
+.navbar {
+  background: linear-gradient(to right, #e67e22, #d35400);
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Title Style */
+.navbar-title {
+  font-size: 2.0rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-title .icon {
+  font-size: 1.5rem;
+}
+
+/* Links Container */
+.navbar-links {
+  display: flex;
+  gap: 64px;
+}
+
+/* Navigation Link Style */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+  position: relative;
+  padding-bottom: 4px;
+  transition: transform 0.2s ease;
+}
+
+/* Hover underline effect */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+/* Hover Effects */
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,127 @@
+.recommend-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 60%;
+  max-width: 400px;
+}
+
+.upload-button {
+  background-color: #e67e22; /* Orange like navbar */
+  color: white;
+  padding: 10px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #d35400;
+}
+
+.subtitle {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #34495e;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.job-card {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.job-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.company {
+  font-size: 15px;
+  color: #6c757d;
+}
+
+.match {
+  font-size: 14px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.job-details {
+  margin-top: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+  color: #555;
+  font-size: 15px;
+}
+
+/* About section */
+.about-box {
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #fff6f1;
+  border-left: 5px solid #e67e22;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-box h3 {
+  margin-top: 0;
+  color: #e67e22;
+  font-size: 20px;
+}
+
+.about-box p {
+  margin: 10px 0 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
